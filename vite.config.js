@@ -22,5 +22,11 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  server:{
+    proxy:{
+      // 跨域代理
+      '/weather': 'https://restapi.amap.com/v3'
+    }
   }
 })

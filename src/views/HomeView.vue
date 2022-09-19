@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HelloWord from '../components/HelloWorld.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <HelloWord msg="HelloWord's msg" />
   </main>
 </template>
