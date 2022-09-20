@@ -1,4 +1,3 @@
-
 import service from '@/api/service'
 
 const request = {}
@@ -9,7 +8,7 @@ request.$get = (url, params = {}, config = {}) => {
     url,
     method: 'get',
     config,
-    params
+    params,
   })
 }
 
@@ -19,7 +18,7 @@ request.$post = (url, data = {}, config = {}) => {
     url,
     method: 'post',
     config,
-    data
+    data,
   })
 }
 

@@ -13,10 +13,10 @@ export default {
     getWeatherInfo() {
       getWeather({
         city: 420000,
-        key: ''
+        key: '',
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
